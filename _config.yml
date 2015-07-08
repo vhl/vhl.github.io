@@ -1,0 +1,12 @@
+# Site settings
+title: VHL Hacks
+email: hacks@vistahigherlearning.com
+description: > # this means to ignore newlines until "baseurl:"
+  Vista Higher Learning\'s software engineering blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://vhl.github.io" # the base hostname & protocol for your site
+github_username: vhl
+
+# Build settings
+markdown: kramdown
+paginate: 10
