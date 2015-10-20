@@ -1,12 +1,19 @@
-# Site settings
-title: VHL Hacks
-email: hacks@vistahigherlearning.com
-description: > # this means to ignore newlines until "baseurl:"
-  Vista Higher Learning\'s software engineering blog
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://vhl.github.io" # the base hostname & protocol for your site
-github_username: vhl
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
-paginate: 10
+# Setup
+title:               VHL Developers
+tagline:             'software engineering blog'
+description:         'A blog written by the software engineering team at <a href="https://vistahigherlearning.com>Vista Higher Learning</a>"'
+url:                 https://vistahigherlearning.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Dev Bot
+  url:               https://vistahigherlearning.com
+  email:             foo@example.com
